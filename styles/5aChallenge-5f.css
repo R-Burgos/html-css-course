@@ -1,0 +1,30 @@
+p{
+  font-family: Arial;
+  margin-top: 0px;
+  margin-bottom: 0px;
+}
+
+.top{
+  margin-bottom: 8px;
+}
+
+.cost{
+  font-size: 35px;
+}
+
+.usd{
+  color: gray;
+}
+
+.green{
+  color: green;
+  margin-bottom: 10px;
+}
+
+.after{
+  color: gray;
+}
+
+.red{
+  color: red;
+}

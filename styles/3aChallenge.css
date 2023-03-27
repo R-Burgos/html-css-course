@@ -1,0 +1,58 @@
+.custom-link{
+  color: rgb(0, 113, 133);
+}
+
+.custom-link:hover {
+  color: orangered;
+}
+
+.custom-main{
+  font-weight: bold;
+  font-size:24px;
+}
+
+.custom-price{
+  color: rgb(0, 118, 0);
+  font-weight: bold;
+}
+
+.custom-cart-button{
+  background-color: rgb(255, 216, 20);
+  font-weight: bold;
+  height: 30px;
+  width: 110px;
+  border: none;
+  border-radius: 15px;
+  cursor: pointer;
+  margin-right: 6px;
+  transition: background-color 0.15s,
+  opacity 0.15s;
+}
+
+.custom-cart-button:hover {
+  background-color: rgb(255, 195, 20);
+}
+.custom-cart-button:active {
+  opacity: 0.6;
+}
+
+.custom-buy-button{
+  background-color: rgb(255, 164, 28);
+  font-weight: bold;
+  height: 30px;
+  width: 110px;
+  border: none;
+  border-radius: 15px;
+  cursor: pointer;
+  margin-right: 6px;
+  transition: background-color 0.15s,
+  opacity 0.15s;
+}
+
+.custom-buy-button:hover {
+  background-color: rgb(255, 144, 20);
+}
+
+.custom-buy-button:active {
+  opacity: 0.6;
+}

@@ -1,0 +1,60 @@
+.back-button{
+  background-color: white;
+  font-size: 15px;
+  padding-top: 10px;
+  padding-bottom: 10px;
+  padding-right: 6px;
+  padding-left: 6px;
+  border-radius: 2px;
+  border-style: solid;
+  border-width: 1px;
+  border-color: rgb(150, 157, 163);
+  margin-right: 8px;
+  cursor: pointer;
+  transition: opacity 0.15s;
+}
+
+.back-button:hover{
+  opacity: 0.8;
+}
+
+.back-button:active{
+  opacity: 0.5;
+}
+
+.next-button{
+  background-color: white;
+  font-size: 15px;
+  padding-top: 10px;
+  padding-bottom: 10px;
+  padding-right: 6px;
+  padding-left: 6px;
+  border-radius: 2px;
+  border-style: solid;
+  border-width: 1px;
+  border-color: rgb(150, 157, 163);
+  margin-left: 8px;
+  cursor: pointer;
+  transition: opacity 0.15s;
+}
+
+.next-button:hover{
+  opacity: 0.8;
+}
+
+.next-button:active{
+  opacity: 0.5;
+}
+
+.invisible{
+  background-color: none;
+  border: none;
+  color:rgb(111, 14, 202);
+  text-decoration: underline;
+  cursor: pointer;
+  transition: color 0.15s;
+}
+
+.invisible:active{
+color:red;
+}
