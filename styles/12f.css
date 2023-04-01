@@ -1,0 +1,70 @@
+button,
+div{
+  font-family: Arial;
+}
+
+.nav-bar{
+  display: flex;
+  flex: row;
+  height: 50px;
+  width: 700px;
+  background-color: rgb(120, 82, 178);
+  justify-content: space-between;
+  align-items: center;
+  padding-left: 15px;
+  padding-right: 15px;
+}
+
+.home-button{
+  background-color: rgb(120, 82, 178);
+  border: none;
+  color: white;
+  font-size: 14px;
+  font-weight: bold;
+  cursor: pointer;
+  transition: color 0.15s;
+}
+
+.home-button:hover{
+  color: rgb(200, 200, 200);
+}
+
+.home-button:active{
+  color: rgb(100, 100, 100);
+}
+
+.download-button{
+  background-color: rgb(120, 82, 178);
+  border-style: solid;
+  border-width: 1px;
+  border-color: white;
+  border-radius: 2px;
+  color: white;
+  font-size: 14px;
+  padding-top: 7px;
+  padding-bottom: 7px;
+  padding-left: 12px;
+  padding-right: 12px;
+  transition: color 0.15s, border-color 0.15s;
+  cursor: pointer;
+}
+
+.download-button:hover{
+  color: rgb(200, 200, 200);
+  border-color: rgb(200, 200, 200);
+}
+
+.download-button:active{
+  color: rgb(100, 100, 100);
+  border-color: rgb(100, 100, 100);
+}
+
+.search-bar{
+  width: 400px;
+  padding-top: 6px;
+  padding-bottom: 6px;
+  padding-left: 20px;
+  padding-right: 20px;
+  border-radius: 20px;
+  border:none;
+}
