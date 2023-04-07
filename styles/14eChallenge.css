@@ -1,0 +1,64 @@
+body{
+  height: 3000px;
+}
+
+.header{
+  border-bottom-width: 1px;
+  border-bottom-color: rgb(200,200,200);
+  border-bottom-style: solid;
+  position: fixed;
+  top: 0;
+  left: 0;
+  right: 0;
+  padding-top: 10px;
+  padding-bottom: 10px;
+  padding-left: 50px;
+  padding-right: 50px;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.left{
+  display: flex;
+  align-items: center;
+}
+
+.image{
+  height: 40px;
+  width: 40px;
+  border-radius: 20px;
+  object-fit: cover;
+  margin-right: 10px;
+}
+
+.name{
+  font-family: Arial;
+  font-weight: bold;
+}
+
+.Add{
+  background-color: rgb(25,120,240);
+  color: white;
+  font-weight: bold;
+  border-radius: 6px;
+  padding-top: 8px;
+  padding-bottom: 8px;
+  padding-left: 12px;
+  padding-right: 12px;
+  border: none;
+  margin-right: 3px;
+  cursor: pointer;
+}
+
+.Message{
+  background-color: rgb(230, 230, 230);
+  font-weight: bold;
+  border-radius: 6px;
+  padding-top: 8px;
+  padding-bottom: 8px;
+  padding-left: 12px;
+  padding-right: 12px;
+  border: none;
+  cursor: pointer;
+}
